@@ -1,0 +1,29 @@
+.navbarMargin {
+  margin-top: 20px;
+  width: auto;
+}
+.navbarContent {
+  width: 80%;
+  position: fixed;
+  right: 0;
+}
+.navbarImg {
+  border-radius: 50px;
+  width: 25px;
+  height: 25px;
+}
+.navbarImgArrow {
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+.navbarToggleImg {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.navbarLoginLogoutImg {
+  font-weight: 500;
+  position:fixed;
+  right:0
+}

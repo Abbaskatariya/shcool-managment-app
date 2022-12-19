@@ -1,0 +1,166 @@
+.class {
+  margin-top: 50px;
+  width: 75vw;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.headingButton {
+  color: white;
+  background-color: #ffbc53;
+  border-radius: 50px;
+  height: 30px;
+  padding: 0px 20px;
+  border: #ffbc53;
+}
+#react-paginate ul {
+  display: inline-block;
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+#react-paginate li {
+  display: inline-block;
+  border: 1px solid rgb(224 224 224);
+  color: #000;
+  cursor: pointer;
+  margin: 1px 1px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+#react-paginate li a {
+  padding: 0px 10px;
+  display: inline-block;
+  color: #000;
+  outline: none;
+  text-decoration: none;
+}
+
+#react-paginate li.active {
+  background: #ffbc53;
+  outline: none;
+}
+.border {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fedda8;
+  border: 1px solid #fedda8;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+/* @media only screen and (max-width: 600px) {
+} */
+.addClassWidth {
+  width: 500px;
+}
+.classContainer {
+  border: 1px solid #eff1f5;
+  padding: 30px;
+  border-radius: 5px;
+  padding-bottom: 60px;
+  width: revert;
+  margin-right: 30px;
+}
+.classFilter {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 30px;
+  width: revert;
+}
+.classFilterSearchInput {
+  border-radius: 50px;
+  height: 30px;
+  width: auto;
+  position: absolute;
+  left: 350px;
+}
+.classInputFilter {
+  background-color: #ffbc53;
+  width: auto;
+  border-radius: 50px;
+  color: white;
+  border: 1px solid #ffbc53;
+}
+.classImgEditDelete {
+  cursor: pointer;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.dashboardImg {
+  border: 1px solid #ffbc53;
+  border-radius: 5px;
+  margin: 20px 80px 20px 20px;
+  padding: 9px;
+  background: #ffbc53;
+}
+.cursor {
+  cursor: pointer;
+}
+.select {
+  width: 490px;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0px;
+  min-width: 10em;
+}
+
+ul ul ul {
+  left: 100%;
+  top: 0;
+  margin-left: 1px;
+}
+
+li:hover {
+  background: #ffbc53;
+}
+
+.expand {
+  font-size: 12px;
+  float: right;
+  margin-right: 5px;
+}
+.loginSection {
+  margin-right: 350px;
+  margin-top: 120px;
+}
+.loginImgOpacity {
+  opacity: 0.3;
+  z-index: 0;
+}
+.loginImgH1Logo {
+  z-index: 10;
+  position: relative;
+  bottom: 300px;
+  font-weight: bolder;
+}
+.imgLogo {
+  width: 40px;
+  height: 40px;
+}
+.feesNotFound {
+  position: fixed;
+  top: 15%;
+  left: 50%;
+}
+.dropDownToggle {
+  background: #ffbc53;
+  border-radius: 50px;
+  border-color: #ffbc53;
+  height: 31px;
+}
+.dropDownToggle:hover {
+  background: #ffbc53;
+  border-color: #ffbc53;
+}
