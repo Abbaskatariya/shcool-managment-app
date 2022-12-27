@@ -1,0 +1,41 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+/* @media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+} */
+.loginSection {
+  display: flex;
+  margin-top: 120px;
+  justify-content: center;
+}
+
+.loginImgOpacity {
+  opacity: 0.3;
+  z-index: 0;
+}
+.loginImgH1Logo {
+  z-index: 10;
+  position: relative;
+  bottom: 300px;
+  font-weight: bolder;
+}
+.imgLogo {
+  width: 40px;
+  height: 40px;
+}
+@media only screen and (max-width: 426px) {
+  .loginSection {
+    margin-right: 0;
+    flex-wrap: wrap;
+  }
+}

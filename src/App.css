@@ -1,5 +1,140 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.class {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.classHeadingMargin {
+  margin-bottom: 30px;
+}
+
+.classHeadingMargin span {
+  color: gray;
+}
+.classDropDownToggle {
+  background: #ffbc53;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  border-color: #ffbc53;
+  height: 31px;
+}
+.classDropDownToggle:hover {
+  background: #ffbc53;
+  border-color: #ffbc53;
+}
+
+.headingButton {
+  color: white;
+  background-color: #ffbc53;
+  border-radius: 50px;
+  height: 30px;
+  padding: 0px 20px;
+  border: #ffbc53;
+}
+.addClassWidth {
+  width: 550px;
+}
+
+.classContainer {
+  border: 1px solid #eff1f5;
+  padding: 30px;
+  border-radius: 5px;
+  width: revert;
+  margin-right: 30px;
+}
+.classFilter {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 30px;
+  width: revert;
+}
+.classFilterSearchInput {
+  border-radius: 50px;
+  height: 30px;
+  width: auto;
+  position: absolute;
+  left: 50px;
+}
+.classImgEditDelete {
+  cursor: pointer;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+.cursor {
+  cursor: pointer;
+}
+.select {
+  width: 540px;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+}
+
+.filterSelect {
+  width: 180px;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+}
+.studentForm {
+  border: 1px solid #dfe3e7;
+  border-radius: 5px;
+  padding: 50px;
+  margin-right: 30px;
+}
+@media only screen and (max-width: 430px) {
+  .classFilter {
+    margin-right: -25px;
+  }
+  .studentForm {
+    padding: 10px;
+  }
+  .classFilterSearchInput {
+    border-radius: 50px;
+    height: 30px;
+    width: 85px;
+    position: absolute;
+    left: 50px;
+  }
+  .classImgEditDelete {
+    cursor: pointer;
+    margin-right: 5px;
+    width: 20px;
+    height: auto;
+  }
+  .table {
+    width: max-content;
+  }
+  .select {
+    width: 330px;
+  }
+  .classSelect {
+    width: 330px;
+  }
+  .addClassWidth {
+    width: 340px;
+  }
+  .headingButton {
+    padding: 0;
+    width: min-content;
+    padding-top: 2px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .select {
+    width: 300px;
+  }
+  .teacherImg {
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .select {
+    width: 245px;
+  }
 }

@@ -1,0 +1,103 @@
+.border {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fedda8;
+  border: 1px solid #fedda8;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.box {
+    display: flex;
+    justify-content: space-around;
+}
+.dashboardImg {
+  border-radius: 5px;
+  margin: 20px 80px 20px 20px;
+  padding: 9px;
+}
+.dashboardImgBorder {
+  background: #ffbc53;
+  border: 1px solid #ffbc53;
+}
+.marginRight {
+  margin-right: 20px;
+}
+.height {
+  height: 21px;
+}
+.crownBg {
+  background: #8bd6fd;
+}
+.crownBg div:first-child {
+  border: 1px solid #18aefa;
+  background: #18aefa;
+}
+.departmentBg {
+  background: #fab3a1;
+}
+.departmentBg div:first-child {
+  border: 1px solid #f56741;
+  background: #f56741;
+}
+.dataBaseBg {
+  background: #b6b5fb;
+}
+.dataBaseBg div:first-child {
+  border: 1px solid #6e6bfa;
+  background: #6e6bfa;
+}
+.chartBorder {
+  border: 1px solid #e7eaed;
+  border-radius: 5px;
+}
+.chartBorder div {
+    padding: 15px;
+}
+@media only screen and (max-width: 768px) {
+    .box {
+        display: block;
+    }
+    .border {
+        margin-bottom: 10px;
+    }
+    .chartBorder {
+        margin-bottom: 50px;
+    }
+    .chartBorder div {
+        padding: 5;
+    }
+    .recharts-surface {
+        width:350px;
+        margin-left: -20px;
+    }
+    .recharts-wrapper {
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 320px) {
+  .recharts-surface {
+    width: 290px;
+}
+}
+@media only screen and (max-width: 1024px) {
+  .dashboardImg {
+    margin: 20px 20px 20px 20px;
+    padding: 0;
+  }
+  .recharts-wrapper {
+    margin-bottom: 20px;
+  }
+  .chart {
+    display: block;
+}
+.border {
+  margin-bottom: 10px;
+}
+.chartBorder {
+  margin-bottom: 50px;
+}
+.chartBorder div {
+  padding: 5;
+}
+}

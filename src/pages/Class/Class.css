@@ -1,0 +1,23 @@
+.classSelect {
+  width: 550px;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+}
+.feesNotFound {
+  position: fixed;
+  top: 15%;
+  left: 50%;
+}
+.errorPage {
+  margin-top: 120px;
+}
+.teacherImg {
+  width: auto;
+  height: 150px;
+}
+.teacherImgShow {
+  height: 25px;
+  width: 25px;
+  border-radius: 50px;
+}
